@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %} 
+
+<br><br>
+
+
+<div style="display: flex;">
+
+    <div class="column1">
+        <div>
+            <p class="welcome-text">Juegos de Casino Online
+                <br>¡Registrate y Juega con nosotros!
+            </p>
+        </div>
+        <br>
+        <div class="button-container">
+            
+            <button class="button" onclick="window.location.href='/login';">
+               Iniciar sesión
+            </button>
+
+            <button class="button" onclick="window.location.href='/sign-up';">
+                Registrate
+            </button>
+        </div>
+
+    </div>
+
+    <div class="column2">
+        <img src="../static/images/casino_2png.png" alt="">
+    </div>
+
+</div>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+body{
+    /* background-image: url(images/bg_dark8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+    background: linear-gradient(90deg, rgba(75,0,50,1) 0%, rgba(107,0,33,1) 53%, rgba(25,0,22,1) 100%);
+}
+
+.navbar{
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+.column1{
+    width: 50%;
+    margin: auto;
+}
+
+.welcome-text{
+    text-align: center;
+    font-size: 3vw;
+    line-height: 2em;
+}
+
+.column2{
+    width: 50%;
+    margin: auto;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button{
+    margin: 0 20px 0 20px;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: 12px;
+    background: linear-gradient(294deg, rgba(190,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(188,0,0,1) 100%);
+    /* border: 2px solid rgba(188,0,0,1); */
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+input{
+    color: black;
+}
